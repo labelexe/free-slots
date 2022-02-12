@@ -1,0 +1,12 @@
+{
+    "dependencies": {
+        "jquery": "^3.3.1",
+        "jstransformer-markdown-it": "^2.1.0",
+        "normalize.css": "^8.0.1",
+        "pug": "^3.0.2",
+        "sass": "^1.43.4"
+    },
+    "devDependencies": {
+        "prettier": "2.5.1"
+    }
+}

@@ -1,0 +1,12 @@
+@import "./base/_base.scss";
+@import "./base/_container.scss";
+
+@import "./component/header";
+@import "./component/preloader";
+@import "./component/burger";
+@import "./component/footer";
+
+@import "./layout/hero";
+@import "./layout/games";
+
+@import "utilc/_variables.scss";
