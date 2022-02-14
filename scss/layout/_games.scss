@@ -1,6 +1,7 @@
 .games {
   padding: 60px 0;
-  background-color: #0b0e29;
+  background: var(--background-section-color);
+  overflow-x: hidden;
 }
 .container {
 }
@@ -54,10 +55,15 @@
   flex-wrap: wrap;
 }
 .games__item {
+  position: relative;
   width: 164px;
-  height: 185px;
+  min-height: 185px;
+  margin-bottom: 24px;
   &:nth-child(2n) {
     margin-left: 17px;
+  }
+  &:nth-child(n + 9) {
+    margin-bottom: 0;
   }
 }
 .games__item-img {
@@ -129,4 +135,41 @@
   font-weight: normal;
   font-size: 14px;
   line-height: 16px;
+}
+
+.games__item-hover {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  opacity: 0;
+  width: 164px;
+  height: 126px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
+  transition: all 0.3s ease-in-out;
+}
+.item-hover-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 130px;
+  height: 35px;
+  background: var(--svg-color);
+  border: 4px solid rgba(61, 77, 237, 0.4);
+  border-radius: 10px;
+  .bonus__button-svg {
+  }
+  .bonus__button-text {
+  }
+}
+
+.games__item {
+  &:hover > .games__item-hover,
+  &:focus > .games__item-hover {
+    z-index: 1;
+    opacity: 1;
+  }
 }

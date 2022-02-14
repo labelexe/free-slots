@@ -32,7 +32,7 @@ nav {
     overflow: hidden;
     background: var(--burger-color);
     border-radius: 10px;
-    transition: transform 250ms ease;
+    transition: transform 0.3s ease-in-out;
   }
   &.language__menu_active .language {
     z-index: 10;
@@ -49,7 +49,7 @@ nav {
   margin-left: 8px;
   fill: #3f50fd;
   transform: rotate(0deg);
-  transition: transform 250ms ease;
+  transition: transform 0.3s ease-in-out;
 }
 .language__menu_active .menu-butto__svg {
   transform: rotate(180deg);
@@ -77,9 +77,10 @@ nav {
   margin-right: 8px;
 }
 .burger-menu_nav {
-  ul {
+  label ~ ul {
     text-align: start;
     width: 345px;
+    height: 550px;
   }
 
   .menu_nav-label {
@@ -129,7 +130,7 @@ nav {
   width: 13px;
   height: 8px;
   fill: var(--svg-color);
-  transition: transform 250ms ease;
+  transition: transform 0.3s ease-in-out;
   transform: translate(0deg);
   &:hover,
   &:focus {
@@ -143,7 +144,7 @@ nav {
   height: 0;
   opacity: 0;
   visibility: hidden;
-  transition: transform 250ms ease;
+  transition: transform 0.3s ease-in-out;
 }
 
 .burger-menu_link {

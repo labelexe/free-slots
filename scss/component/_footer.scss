@@ -1,0 +1,26 @@
+.footer {
+  padding: 24px 0;
+  background: var(--background-section-color);
+}
+
+.footer__logo {
+  width: 179px;
+  height: 29px;
+}
+.footer__list {
+  margin: 24px 0 32px;
+}
+.footer__item {
+  margin-bottom: 24px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  &:last-child {
+    margin: 0;
+  }
+}
+.footer__sponsors {
+  width: 287px;
+  height: 32px;
+}

@@ -1,0 +1,18 @@
+.info {
+  padding: 40px 0;
+  background: var(--background-section-color);
+}
+.info__title {
+  width: 70%;
+  margin-bottom: 16px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 40px;
+}
+.info__text {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+}
