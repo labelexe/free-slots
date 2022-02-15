@@ -54,12 +54,11 @@
   height: 304.37px;
 }
 
-
 @media screen and (min-width: 768px) {
   .hero__img {
     display: none;
   }
-  
+
   .hero__link {
     margin-top: 36px;
     margin-bottom: 36px;
@@ -67,15 +66,22 @@
 }
 
 @media screen and (min-width: 1200px) {
-  .hero__container{
+  .hero__container {
     display: flex;
     padding: 71px auto 110px auto;
-    .hero__container-box{
+    .hero__container-box {
       padding-top: 48px;
-  
+
       .hero__link {
         margin-bottom: 0;
+        width: 255px;
+        height: 48px;
       }
+    }
+    .hero__title {
+      font-weight: bold;
+      font-size: 42px;
+      line-height: 51px;
     }
     .hero__img {
       display: block;

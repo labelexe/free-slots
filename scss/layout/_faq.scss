@@ -24,6 +24,12 @@
   &:last-child {
     margin: 0;
   }
+  &:hover {
+    background: #11153a;
+    border: 1px solid #3f50fd;
+    box-sizing: border-box;
+    border-radius: 6px;
+  }
 }
 .faq__question {
   display: flex;
@@ -66,5 +72,14 @@
 @media screen and (min-width: 768px) {
   .faq {
     padding: 100px 0;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .faq {
+    padding: 120px 0;
+    .container {
+      width: 780px;
+      box-sizing: content-box;
+    }
   }
 }

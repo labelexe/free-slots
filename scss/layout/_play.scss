@@ -112,7 +112,7 @@
     margin-bottom: 24px;
   }
 
-  .play__item{
+  .play__item {
     display: flex;
     padding: 12px;
 
@@ -123,5 +123,39 @@
     .bonus__button {
       width: 135px;
     }
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .play__container {
+    width: 980px;
+    box-sizing: content-box;
+  }
+  .play__title {
+    margin-top: 100px;
+    margin-bottom: 24px;
+    justify-content: space-around;
+  }
+
+  .play__item {
+    display: flex;
+    padding: 12px;
+
+    .play__item-bonus {
+      margin: 0 129px;
+      width: 262px;
+    }
+
+    .bonus__button {
+      width: 180px;
+      height: 48px;
+    }
+  }
+  .play__item-box {
+    width: 254px;
+  }
+  .text__title-bonus {
+    font-size: 16px;
+    line-height: 16px;
   }
 }

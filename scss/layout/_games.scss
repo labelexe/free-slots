@@ -59,7 +59,7 @@
   width: 164px;
   min-height: 185px;
   margin-bottom: 24px;
-  
+
   &:nth-child(2n) {
     margin-left: 17px;
   }
@@ -145,7 +145,7 @@
   left: 0;
   z-index: -1;
   opacity: 0;
-  width: 164px;
+  width: 100%;
   height: 126px;
   display: flex;
   justify-content: center;
@@ -186,7 +186,7 @@
     padding: 0 15px;
     margin: 0 auto;
     box-sizing: border-box;
-    &::-webkit-scrollbar{
+    &::-webkit-scrollbar {
       display: none;
     }
   }
@@ -199,7 +199,7 @@
       margin-right: 20px;
     }
   }
-  
+
   .games__item {
     width: 226px;
     min-height: 223px;
@@ -216,18 +216,18 @@
       margin-bottom: 0;
     }
 
-    .games__item-img{
+    .games__item-img {
       width: 226px;
       height: 174px;
     }
   }
 
-  .games_nav-container{
+  .games_nav-container {
     display: flex;
     flex-direction: column;
     align-items: center;
-    
-    .games__link{
+
+    .games__link {
       margin-top: 52px;
       margin-bottom: 76px;
     }
@@ -244,7 +244,13 @@
         margin-right: 16px;
       }
     }
-
+  }
+  .games__item-hover {
+    height: 174px;
+  }
+  .item-hover-link {
+    width: 140px;
+    height: 48px;
   }
 }
 
@@ -258,7 +264,7 @@
     padding: 0 15px;
     margin: 0 auto;
     box-sizing: border-box;
-    &::-webkit-scrollbar{
+    &::-webkit-scrollbar {
       display: none;
     }
   }
@@ -271,37 +277,45 @@
       margin-right: 20px;
     }
   }
-  
+
   .games__item {
     width: 226px;
     min-height: 223px;
     margin-bottom: 32px;
     margin-left: 0;
-    margin-right: 30px;
+    margin-right: 12px;
     &:nth-child(2n) {
       margin-left: 0;
     }
-    &:nth-child(3n) {
+    &:nth-child(5n + 5) {
       margin-right: 0;
+    }
+    &:nth-child(3n) {
+      margin-right: 12px;
     }
     &:nth-child(n + 9) {
       margin-bottom: 0;
     }
 
-    .games__item-img{
+    .games__item-img {
       width: 226px;
       height: 174px;
     }
   }
 
-  .games_nav-container{
+  .games_nav-container {
     display: flex;
     flex-direction: column;
     align-items: center;
-    
-    .games__link{
+
+    .games__link {
       margin-top: 52px;
       margin-bottom: 76px;
+      width: 255px;
+      height: 48px;
+      background: #3f50fd;
+      border: 4px solid rgba(61, 77, 237, 0.4);
+      border-radius: 10px;
     }
 
     .gsmes__pagination-item {
@@ -316,6 +330,5 @@
         margin-right: 16px;
       }
     }
-
   }
 }

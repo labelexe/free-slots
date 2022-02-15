@@ -5,7 +5,7 @@
 
 .footer__logo {
   width: 179px;
-  height: 29px;
+  height: auto;
 }
 .footer__list {
   margin: 24px 0 32px;
@@ -29,22 +29,58 @@
   .footer {
     padding: 25px 0 32px;
 
-    .footer__container{
+    .footer__container {
       display: flex;
       justify-content: space-between;
       align-items: center;
       margin: 0 0 27px;
-      .footer__list{
+      .footer__list {
         display: flex;
         align-items: center;
         margin: 0;
-        .footer__item{
+        .footer__item {
           margin: 0 0 0 55px;
         }
       }
     }
-    .footer__sponsors{
+    .footer__sponsors {
       margin: 0 auto;
+    }
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .footer {
+    padding: 25px;
+    .container {
+      display: flex;
+    }
+
+    .footer__container {
+      margin: 0;
+
+      .footer__logo {
+        width: 179px;
+        height: 19px;
+      }
+      .footer__list {
+        margin-left: 121px;
+        margin-right: 124px;
+        .footer__item {
+          margin: 0 0 0 55px;
+          &:first-child {
+            margin: 0;
+          }
+          a {
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 17px;
+          }
+        }
+      }
+    }
+    .footer__sponsors {
+      margin: 0;
     }
   }
 }

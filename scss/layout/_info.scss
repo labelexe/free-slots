@@ -2,6 +2,9 @@
   padding: 40px 0;
   background: var(--background-section-color);
 }
+.info__images-container {
+  display: none;
+}
 .info__title {
   width: 70%;
   margin-bottom: 16px;
@@ -18,7 +21,43 @@
 }
 
 @media screen and (min-width: 768px) {
-  .info{
+  .info {
     padding: 80px 0;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .info {
+    padding: 80px 0;
+    .container {
+      display: flex;
+      width: 980px;
+    }
+  }
+  .info__images-container {
+    display: block;
+    padding-top: 96px;
+    margin-left: 63px;
+    width: 83px;
+  }
+  .info__img {
+    width: 83px;
+    height: 83px;
+    margin-bottom: 60px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+  }
+
+  .info__img-1 {
+    background-image: url(./../img/006-casino-chip.webp);
+  }
+  .info__img-2 {
+    background-image: url(./../img/005-poker-cards.webp);
+  }
+  .info__img-3 {
+    background-image: url(./../img/001-chip.webp);
+  }
+  .info__img-4 {
+    background-image: url(./../img/007-diamond.webp);
   }
 }
