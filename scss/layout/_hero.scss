@@ -1,4 +1,5 @@
 .hero {
+  overflow-x: hidden;
 }
 .hero__container {
   position: relative;
@@ -9,12 +10,13 @@
   position: absolute;
   width: 261px;
   height: 261px;
-  right: 160px;
+  right: -160px;
   top: 10px;
   border-radius: 50%;
   background: #3f50fd;
   opacity: 0.3;
   filter: blur(211.556px);
+  overflow-x: hidden;
 }
 .hero__title {
   margin-bottom: 16px;
@@ -50,4 +52,35 @@
 .hero__img {
   width: 345px;
   height: 304.37px;
+}
+
+
+@media screen and (min-width: 768px) {
+  .hero__img {
+    display: none;
+  }
+  
+  .hero__link {
+    margin-top: 36px;
+    margin-bottom: 36px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .hero__container{
+    display: flex;
+    padding: 71px auto 110px auto;
+    .hero__container-box{
+      padding-top: 48px;
+  
+      .hero__link {
+        margin-bottom: 0;
+      }
+    }
+    .hero__img {
+      display: block;
+      width: 484px;
+      height: 427px;
+    }
+  }
 }

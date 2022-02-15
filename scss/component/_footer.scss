@@ -24,3 +24,27 @@
   width: 287px;
   height: 32px;
 }
+
+@media screen and (min-width: 768px) {
+  .footer {
+    padding: 25px 0 32px;
+
+    .footer__container{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin: 0 0 27px;
+      .footer__list{
+        display: flex;
+        align-items: center;
+        margin: 0;
+        .footer__item{
+          margin: 0 0 0 55px;
+        }
+      }
+    }
+    .footer__sponsors{
+      margin: 0 auto;
+    }
+  }
+}
