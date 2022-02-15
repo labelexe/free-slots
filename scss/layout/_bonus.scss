@@ -105,3 +105,23 @@
   border: 4px solid rgba(61, 77, 237, 0.4);
   border-radius: 10px;
 }
+
+@media screen and (min-width: 768px) {
+  .play__title {
+    margin-top: 100px;
+    margin-bottom: 24px;
+  }
+
+  .play__item{
+    display: flex;
+    padding: 12px;
+
+    .play__item-bonus {
+      margin: 0 80px 0 36px;
+    }
+
+    .bonus__button {
+      width: 135px;
+    }
+  }
+}

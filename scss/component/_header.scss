@@ -3,6 +3,7 @@ nav {
   display: flex;
   box-sizing: border-box;
   width: 345px;
+  justify-content: space-between !important;
 }
 .logo {
   margin-top: 20px;
@@ -16,7 +17,8 @@ nav {
 .language__menu {
   position: relative;
   margin-top: 16px;
-  margin-left: 72px;
+  margin-right: 79px;
+  // margin-left: 72px;
   width: 45px;
   height: 24px;
   .language {
@@ -184,86 +186,21 @@ nav {
   line-height: 19px;
   color: #d9dbf9;
 }
+
+@media screen and (min-width: 768px) {
+  nav{
+    width: 738px;
+    justify-content: space-between !important;
+
+    &::-webkit-scrollbar{
+      display: none;
+    }
+  }
+  .language__menu {
+    margin-right: 64px;
+}
+  // .menu-container{}
+}
 @media screen and (min-width: 1200px) {
-  .nav {
-    position: fixed;
-    top: 38px;
-    left: 50%;
-    transform: translate(-50%);
-    z-index: 9999;
-    display: flex;
-    padding: 0 49px;
-    width: 1440px;
-    align-items: center;
-  }
-  .logo {
-    margin: 0;
-    width: 198px;
-    height: 65px;
-  }
-  .nav__item {
-    margin-left: 512px;
-    display: flex;
-  }
-  .nav__list {
-    margin-right: 34px;
-    width: 68px;
-    height: 22px;
-    &:last-child {
-      margin: 0;
-    }
-    a {
-      font-family: Roboto;
-      font-style: normal;
-      font-weight: normal;
-      font-size: 16px;
-      line-height: 19px;
-      color: var(--primary-white-color);
-    }
-  }
 
-  $speed: 0.5s;
-
-  .btn-flip {
-    opacity: 1;
-    color: #fff;
-    position: relative;
-    text-align: center;
-
-    &:hover {
-      &:after {
-        transform: translateY(0) rotateX(0);
-      }
-
-      &:before {
-        transform: translateY(-50%) rotateX(90deg);
-      }
-    }
-
-    &:after {
-      top: 0;
-      left: 0;
-      opacity: 1;
-      width: 100%;
-      display: block;
-      color: var(--accent-color);
-      transition: $speed;
-      position: absolute;
-      content: attr(data-back);
-      transform: translateY(50%) rotateX(90deg);
-    }
-
-    &:before {
-      top: 0;
-      left: 0;
-      opacity: 1;
-      color: #fff;
-      display: block;
-      transition: $speed;
-      position: relative;
-      // background: #323237;
-      content: attr(data-front);
-      transform: translateY(0%) rotateX(0);
-    }
-  }
 }

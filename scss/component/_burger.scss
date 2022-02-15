@@ -1,6 +1,6 @@
 .nav__burger-menu {
   position: relative;
-  left: 180px;
+  left: 0;
   top: 0;
 }
 .burger-menu_button {
@@ -121,14 +121,10 @@
 //   z-index: 21;
 // }
 
-@media screen and (min-width: 1200px) {
-  .nav__burger-menu {
-    top: 0;
-    right: 0;
-  }
+@media screen and (min-width: 768px) {
   .burger-menu_button {
-    top: 0;
-    right: 49px;
+    top: 16px;
+    right: 0;
   }
   .burger-menu_active .burger-menu_nav {
     width: 1580px;
