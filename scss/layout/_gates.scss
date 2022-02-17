@@ -1,0 +1,79 @@
+.gates {
+  padding-top: 56px;
+  padding-bottom: 76px;
+
+  background: #0b0e29;
+}
+.gates__container {
+  margin-bottom: 56px;
+}
+.gates__title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 39px;
+}
+.gates__votes {
+  display: flex;
+  align-items: center;
+  margin: 12px 0 24px;
+}
+.gates__votes-star {
+}
+.gates__votes-text {
+  margin-left: 8px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+}
+.video {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 345px;
+  height: 200px;
+  background-image: url(../../img/Gates-of-Olympus.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center;
+
+  //   background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
+  border-radius: 10px;
+}
+
+.video__link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  width: 255px;
+  height: 48px;
+  background-color: #3f50fd;
+  border: 4px solid rgba(61, 77, 237, 0.4);
+  border-radius: 10px;
+  &:hover {
+    background: #5564ff;
+    border: 6px solid rgba(61, 77, 237, 0.4);
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .video {
+    width: 738px;
+    height: 427px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .video {
+    margin: 0 auto;
+    width: 980px;
+    height: 566px;
+  }
+  .gates__rating {
+    display: flex;
+    justify-content: space-between;
+    width: 980px;
+    margin: 0 auto;
+  }
+}

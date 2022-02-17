@@ -1,3 +1,6 @@
+header {
+  position: relative;
+}
 nav {
   // position: relative;
   display: flex;
@@ -49,7 +52,7 @@ nav {
 
 .menu-butto__svg {
   margin-left: 8px;
-  fill: #3f50fd;
+  fill: var(--button-hover-color);
   transform: rotate(0deg);
   transition: transform 0.3s ease-in-out;
 }
@@ -135,7 +138,7 @@ nav {
   margin-left: 8px;
   width: 13px;
   height: 8px;
-  fill: var(--svg-color);
+  fill: var(--button-color);
   transition: transform 0.3s ease-in-out;
   transform: translate(0deg);
   &:hover,

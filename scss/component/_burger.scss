@@ -2,7 +2,7 @@
   position: absolute;
   top: 16px;
   right: 15px;
-  z-index: 999999;
+  z-index: 1000;
   width: 24px;
   height: 24px;
   border: none;
@@ -83,7 +83,7 @@
   position: absolute;
   right: 50%;
   transform: translate(50%);
-  width: 100%;
+  width: 200%;
   -webkit-transition: 0.4s;
   -moz-transition: 0.4s;
   -o-transition: 0.4s;

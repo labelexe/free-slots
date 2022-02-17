@@ -19,6 +19,12 @@
   &:last-child {
     margin: 0;
   }
+
+  a {
+    &:hover {
+      color: #5f6dff;
+    }
+  }
 }
 .footer__sponsors {
   width: 287px;

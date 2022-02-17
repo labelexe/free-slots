@@ -9,6 +9,7 @@ body {
 }
 
 a {
+  box-sizing: border-box;
   display: block;
   text-decoration: none;
   cursor: pointer;

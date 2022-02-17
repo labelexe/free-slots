@@ -24,11 +24,13 @@
   &:last-child {
     margin: 0;
   }
+  &:focus,
   &:hover {
     background: #11153a;
-    border: 1px solid #3f50fd;
+    border: 1px solid var(--button-hover-color);
     box-sizing: border-box;
     border-radius: 6px;
+    cursor: pointer;
   }
 }
 .faq__question {
@@ -48,8 +50,18 @@
   background: #131740;
   border: 1px solid #2b3168;
   svg {
+    position: relative;
     width: 14px;
     height: 14px;
+    transition: all 0.5s initial;
+  }
+  .faq__svg-minus {
+    position: absolute;
+    height: 10px;
+    z-index: -1;
+    opacity: 0;
+    transition: all 0.5s initial;
+    fill: var(--primary-white-color);
   }
 }
 .faq__answer {
@@ -57,15 +69,29 @@
   opacity: 0;
   transition: all 0.5s initial;
 }
+// .main-item:focus ~ .sub-menu,
+// .main-item:active ~ .sub-menu,
+// .sub-menu:hover
 
 .faq__text {
-  &:hover > .faq__answer,
+  &:active > .faq__answer,
   &:focus > .faq__answer {
     height: 100%;
     opacity: 1;
     margin-top: 30px;
     padding-bottom: 8px;
     transition: all 0.5s ease-in-out;
+  }
+  &:active .faq__svg,
+  &:focus .faq__svg {
+    .faq__svg-minus {
+      opacity: 1;
+      z-index: 1;
+    }
+    .faq__svg-plus {
+      opacity: 0;
+      z-index: -1;
+    }
   }
 }
 

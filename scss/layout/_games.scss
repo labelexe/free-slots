@@ -82,12 +82,14 @@
 }
 .games__link {
   box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   margin-top: 40px;
   margin-bottom: 56px;
-  padding: 12px 0;
   width: 345px;
   height: 48px;
-  background: var(--buttom-color);
+  background: var(--button-color);
   border: 4px solid var(--border-color);
   border-radius: 10px;
   text-align: center;
@@ -95,6 +97,11 @@
   font-weight: bold;
   font-size: 16px;
   line-height: 16px;
+  &:hover {
+    background: var(--button-hover-color);
+    border: 6px solid rgba(61, 77, 237, 0.4);
+    border-radius: 10px;
+  }
 }
 .games__pagination {
   display: flex;
@@ -159,7 +166,7 @@
   justify-content: center;
   width: 130px;
   height: 35px;
-  background: var(--svg-color);
+  background: var(--button-color);
   border: 4px solid rgba(61, 77, 237, 0.4);
   border-radius: 10px;
   .bonus__button-svg {
@@ -313,8 +320,6 @@
       margin-bottom: 76px;
       width: 255px;
       height: 48px;
-      background: #3f50fd;
-      border: 4px solid rgba(61, 77, 237, 0.4);
       border-radius: 10px;
     }
 
