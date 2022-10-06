@@ -1,0 +1,48 @@
+{
+    "key": "group_6107aa0ac75a3",
+    "title": "Reviews Rating",
+    "fields": [
+        {
+            "key": "field_6107aa1404453",
+            "label": "Overall Reviews Rating",
+            "name": "overall_reviews_rating",
+            "type": "number",
+            "instructions": "This field serves for auto counting the overall rating of the item, don't make any changes for it.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "wpml_cf_preferences": 3,
+            "default_value": 0,
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "min": 0,
+            "max": "",
+            "step": ""
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "post"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "side",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "",
+    "show_in_rest": 0,
+    "modified": 1655125610,
+    "wpml_field_group_language": "en"
+}

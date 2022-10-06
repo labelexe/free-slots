@@ -1,0 +1,65 @@
+{
+    "key": "group_6107d3c33f32a",
+    "title": "Comment Rating",
+    "fields": [
+        {
+            "key": "field_6107d3e4dffad",
+            "label": "Rating",
+            "name": "comment_rating",
+            "type": "star_rating_field",
+            "instructions": "",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "wpml_cf_preferences": 1,
+            "max_stars": 5,
+            "return_type": 0,
+            "allow_half": 0,
+            "theme": "default"
+        },
+        {
+            "key": "field_61e9320fdb580",
+            "label": "Language",
+            "name": "comment_language",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "wpml_cf_preferences": 1,
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "comment",
+                "operator": "==",
+                "value": "casinos"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "",
+    "show_in_rest": 0,
+    "modified": 1652981473,
+    "wpml_field_group_language": "en"
+}

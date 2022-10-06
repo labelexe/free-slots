@@ -1,0 +1,1289 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: SlotoGate.com\n"
+"POT-Creation-Date: 2021-11-22 12:52+0200\n"
+"PO-Revision-Date: 2021-11-22 12:52+0200\n"
+"Last-Translator: \n"
+"Language-Team: info@slotogate.com\n"
+"Language: es_ES\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.0\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: _;__;_e\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: 404.php:6
+msgid "Error 404: Page Not Found"
+msgstr ""
+
+#: 404.php:8
+msgid "Sorry, but page with such URL address doesn't exist on this website."
+msgstr ""
+
+#: archive-bonuses.php:12 archive-casinos.php:12 archive-slots.php:11
+#: archive-table_games.php:11 functions.php:458
+#: taxonomy-bonuses_countries.php:18 taxonomy-bonuses_types.php:18
+#: taxonomy-casinos_categories.php:21 taxonomy-casinos_countries.php:20
+#: taxonomy-casinos_currencies.php:21 taxonomy-casinos_deposits.php:21
+#: taxonomy-casinos_languages.php:21 taxonomy-casinos_licenses.php:21
+#: taxonomy-casinos_types.php:21 taxonomy-casinos_withdrawals.php:21
+#: taxonomy-table_games_categories.php:17
+msgid "Casino"
+msgstr ""
+
+#: archive-bonuses.php:23
+msgid "The Best Casino Bonuses Available"
+msgstr ""
+
+#: archive-bonuses.php:23 taxonomy-bonuses_types.php:29
+#: taxonomy-casinos_categories.php:32 taxonomy-casinos_currencies.php:32
+#: taxonomy-casinos_deposits.php:32 taxonomy-casinos_languages.php:32
+#: taxonomy-casinos_licenses.php:32 taxonomy-casinos_types.php:32
+#: taxonomy-casinos_withdrawals.php:32 template-flexible-blocks.php:302
+msgid "in Côte d’Ivoire"
+msgstr ""
+
+#: archive-bonuses.php:23 taxonomy-bonuses_types.php:29
+#: taxonomy-casinos_categories.php:32 taxonomy-casinos_currencies.php:32
+#: taxonomy-casinos_deposits.php:32 taxonomy-casinos_languages.php:32
+#: taxonomy-casinos_licenses.php:32 taxonomy-casinos_types.php:32
+#: taxonomy-casinos_withdrawals.php:32 template-flexible-blocks.php:302
+msgid "in"
+msgstr ""
+
+#: archive-bonuses.php:24 taxonomy-bonuses_countries.php:30
+#: taxonomy-bonuses_types.php:30
+msgid "Please Rate Our Bonuses Collection"
+msgstr ""
+
+#: archive-bonuses.php:29 taxonomy-bonuses_types.php:35
+msgid "Bonuses Found for Players"
+msgstr ""
+
+#: archive-bonuses.php:29 archive-casinos.php:29 taxonomy-bonuses_types.php:35
+#: taxonomy-casinos_categories.php:38 taxonomy-casinos_currencies.php:38
+#: taxonomy-casinos_deposits.php:38 taxonomy-casinos_languages.php:38
+#: taxonomy-casinos_licenses.php:38 taxonomy-casinos_types.php:38
+#: taxonomy-casinos_withdrawals.php:38
+msgid "from"
+msgstr ""
+
+#: archive-bonuses.php:29 archive-casinos.php:23 archive-casinos.php:29
+#: single-casinos.php:102 taxonomy-bonuses_types.php:35
+#: taxonomy-casinos_categories.php:38 taxonomy-casinos_currencies.php:38
+#: taxonomy-casinos_deposits.php:38 taxonomy-casinos_languages.php:38
+#: taxonomy-casinos_licenses.php:38 taxonomy-casinos_types.php:38
+#: taxonomy-casinos_withdrawals.php:38
+msgid "Côte d’Ivoire"
+msgstr ""
+
+#: archive-bonuses.php:35 archive-casinos.php:35 archive-slots.php:31
+#: archive-table_games.php:31 taxonomy-bonuses_countries.php:41
+#: taxonomy-bonuses_types.php:41 taxonomy-casinos_categories.php:44
+#: taxonomy-casinos_countries.php:43 taxonomy-casinos_currencies.php:44
+#: taxonomy-casinos_deposits.php:44 taxonomy-casinos_languages.php:44
+#: taxonomy-casinos_licenses.php:44 taxonomy-casinos_types.php:44
+#: taxonomy-casinos_withdrawals.php:44 taxonomy-slots_features.php:125
+#: taxonomy-slots_providers.php:126 taxonomy-slots_tags.php:125
+#: taxonomy-slots_themes.php:125 taxonomy-slots_types.php:125
+#: template-flexible-blocks.php:22
+msgid "Order By"
+msgstr ""
+
+#: archive-bonuses.php:37 taxonomy-bonuses_countries.php:43
+#: taxonomy-bonuses_types.php:43
+msgid "Popular"
+msgstr ""
+
+#: archive-bonuses.php:38 archive-casinos.php:40 archive-slots.php:33
+#: archive-table_games.php:33 taxonomy-bonuses_countries.php:44
+#: taxonomy-bonuses_types.php:44 taxonomy-casinos_categories.php:49
+#: taxonomy-casinos_countries.php:48 taxonomy-casinos_currencies.php:49
+#: taxonomy-casinos_deposits.php:49 taxonomy-casinos_languages.php:49
+#: taxonomy-casinos_licenses.php:49 taxonomy-casinos_types.php:49
+#: taxonomy-casinos_withdrawals.php:49 taxonomy-slots_features.php:127
+#: taxonomy-slots_providers.php:128 taxonomy-slots_tags.php:127
+#: taxonomy-slots_themes.php:127 taxonomy-slots_types.php:127
+#: template-flexible-blocks.php:26
+msgid "New to Old"
+msgstr ""
+
+#: archive-bonuses.php:39 taxonomy-bonuses_countries.php:45
+#: taxonomy-bonuses_types.php:45
+msgid "Old to New"
+msgstr ""
+
+#: archive-bonuses.php:46
+msgid "Bonus Type"
+msgstr ""
+
+#: archive-bonuses.php:48 archive-casinos.php:72
+#: taxonomy-casinos_categories.php:81 taxonomy-casinos_countries.php:80
+#: taxonomy-casinos_currencies.php:81 taxonomy-casinos_deposits.php:81
+#: taxonomy-casinos_languages.php:81 taxonomy-casinos_licenses.php:81
+#: taxonomy-casinos_withdrawals.php:81 taxonomy-slots_features.php:162
+#: taxonomy-slots_providers.php:141 taxonomy-slots_themes.php:151
+msgid "All Types"
+msgstr ""
+
+#: archive-bonuses.php:60
+msgid "Filter Bonuses"
+msgstr ""
+
+#: archive-bonuses.php:65 archive-casinos.php:89 archive-slots.php:85
+#: archive-table_games.php:63 taxonomy-casinos_categories.php:98
+#: taxonomy-casinos_countries.php:97 taxonomy-casinos_currencies.php:98
+#: taxonomy-casinos_deposits.php:98 taxonomy-casinos_languages.php:98
+#: taxonomy-casinos_licenses.php:98 taxonomy-casinos_types.php:98
+#: taxonomy-casinos_withdrawals.php:98 taxonomy-slots_features.php:179
+#: taxonomy-slots_providers.php:180 taxonomy-slots_tags.php:179
+#: taxonomy-slots_themes.php:179 taxonomy-slots_types.php:179
+msgid "Clear Filter"
+msgstr ""
+
+#: archive-bonuses.php:120 archive-casinos.php:168 archive-slots.php:157
+#: archive-table_games.php:123 search.php:21 taxonomy-bonuses_countries.php:94
+#: taxonomy-bonuses_types.php:99 taxonomy-casinos_categories.php:180
+#: taxonomy-casinos_countries.php:174 taxonomy-casinos_currencies.php:180
+#: taxonomy-casinos_deposits.php:180 taxonomy-casinos_languages.php:180
+#: taxonomy-casinos_licenses.php:180 taxonomy-casinos_types.php:180
+#: taxonomy-casinos_withdrawals.php:180 taxonomy-slots_features.php:254
+#: taxonomy-slots_providers.php:255 taxonomy-slots_tags.php:254
+#: taxonomy-slots_themes.php:254 taxonomy-slots_types.php:254
+msgid "Nothing found"
+msgstr ""
+
+#: archive-casinos.php:23
+msgid "Our"
+msgstr ""
+
+#: archive-casinos.php:23 taxonomy-casinos_countries.php:31
+msgid "Casino Reviews & Ratings"
+msgstr ""
+
+#: archive-casinos.php:23 archive-table_games.php:22
+#: taxonomy-bonuses_countries.php:29 taxonomy-bonuses_types.php:29
+#: taxonomy-casinos_categories.php:32 taxonomy-casinos_countries.php:31
+#: taxonomy-casinos_currencies.php:32 taxonomy-casinos_deposits.php:32
+#: taxonomy-casinos_languages.php:32 taxonomy-casinos_licenses.php:32
+#: taxonomy-casinos_types.php:32 taxonomy-casinos_withdrawals.php:32
+#: taxonomy-table_games_categories.php:29
+msgid "Updated on"
+msgstr ""
+
+#: archive-casinos.php:24 taxonomy-casinos_categories.php:33
+#: taxonomy-casinos_countries.php:32 taxonomy-casinos_currencies.php:33
+#: taxonomy-casinos_deposits.php:33 taxonomy-casinos_languages.php:33
+#: taxonomy-casinos_licenses.php:33 taxonomy-casinos_types.php:33
+#: taxonomy-casinos_withdrawals.php:33
+msgid "Please Rate Our Casinos Collection"
+msgstr ""
+
+#: archive-casinos.php:29 taxonomy-casinos_categories.php:38
+#: taxonomy-casinos_currencies.php:38 taxonomy-casinos_deposits.php:38
+#: taxonomy-casinos_languages.php:38 taxonomy-casinos_licenses.php:38
+#: taxonomy-casinos_types.php:38 taxonomy-casinos_withdrawals.php:38
+msgid "Casinos Found for Players"
+msgstr ""
+
+#: archive-casinos.php:37 archive-slots.php:37 archive-table_games.php:37
+#: taxonomy-casinos_categories.php:46 taxonomy-casinos_countries.php:45
+#: taxonomy-casinos_currencies.php:46 taxonomy-casinos_deposits.php:46
+#: taxonomy-casinos_languages.php:46 taxonomy-casinos_licenses.php:46
+#: taxonomy-casinos_types.php:46 taxonomy-casinos_withdrawals.php:46
+#: taxonomy-slots_features.php:131 taxonomy-slots_providers.php:132
+#: taxonomy-slots_tags.php:131 taxonomy-slots_themes.php:131
+#: taxonomy-slots_types.php:131 template-flexible-blocks.php:28
+msgid "Best Rating"
+msgstr ""
+
+#: archive-casinos.php:38 archive-slots.php:34 archive-table_games.php:34
+#: taxonomy-casinos_categories.php:47 taxonomy-casinos_countries.php:46
+#: taxonomy-casinos_currencies.php:47 taxonomy-casinos_deposits.php:47
+#: taxonomy-casinos_languages.php:47 taxonomy-casinos_licenses.php:47
+#: taxonomy-casinos_types.php:47 taxonomy-casinos_withdrawals.php:47
+#: taxonomy-slots_features.php:128 taxonomy-slots_providers.php:129
+#: taxonomy-slots_tags.php:128 taxonomy-slots_themes.php:128
+#: taxonomy-slots_types.php:128 template-flexible-blocks.php:24
+msgid "A to Z"
+msgstr ""
+
+#: archive-casinos.php:39 archive-slots.php:35 archive-table_games.php:35
+#: taxonomy-casinos_categories.php:48 taxonomy-casinos_countries.php:47
+#: taxonomy-casinos_currencies.php:48 taxonomy-casinos_deposits.php:48
+#: taxonomy-casinos_languages.php:48 taxonomy-casinos_licenses.php:48
+#: taxonomy-casinos_types.php:48 taxonomy-casinos_withdrawals.php:48
+#: taxonomy-slots_features.php:129 taxonomy-slots_providers.php:130
+#: taxonomy-slots_tags.php:129 taxonomy-slots_themes.php:129
+#: taxonomy-slots_types.php:129 template-flexible-blocks.php:25
+msgid "Z to A"
+msgstr ""
+
+#: archive-casinos.php:41 archive-slots.php:36 archive-table_games.php:36
+#: taxonomy-casinos_categories.php:50 taxonomy-casinos_countries.php:49
+#: taxonomy-casinos_currencies.php:50 taxonomy-casinos_deposits.php:50
+#: taxonomy-casinos_languages.php:50 taxonomy-casinos_licenses.php:50
+#: taxonomy-casinos_types.php:50 taxonomy-casinos_withdrawals.php:50
+#: taxonomy-slots_features.php:130 taxonomy-slots_providers.php:131
+#: taxonomy-slots_tags.php:130 taxonomy-slots_themes.php:130
+#: taxonomy-slots_types.php:130
+msgid "Most Popular"
+msgstr ""
+
+#: archive-casinos.php:48 taxonomy-casinos_categories.php:57
+#: taxonomy-casinos_countries.php:56 taxonomy-casinos_currencies.php:57
+#: taxonomy-casinos_deposits.php:32 taxonomy-casinos_languages.php:57
+#: taxonomy-casinos_licenses.php:57 taxonomy-casinos_types.php:57
+#: taxonomy-casinos_withdrawals.php:57
+msgid "Deposit Method"
+msgstr ""
+
+#: archive-casinos.php:50 archive-casinos.php:61
+#: taxonomy-casinos_categories.php:59 taxonomy-casinos_categories.php:70
+#: taxonomy-casinos_countries.php:58 taxonomy-casinos_countries.php:69
+#: taxonomy-casinos_currencies.php:59 taxonomy-casinos_currencies.php:70
+#: taxonomy-casinos_deposits.php:70 taxonomy-casinos_languages.php:59
+#: taxonomy-casinos_languages.php:70 taxonomy-casinos_licenses.php:59
+#: taxonomy-casinos_licenses.php:70 taxonomy-casinos_types.php:59
+#: taxonomy-casinos_types.php:70 taxonomy-casinos_withdrawals.php:59
+msgid "All Methods"
+msgstr ""
+
+#: archive-casinos.php:59 taxonomy-casinos_categories.php:68
+#: taxonomy-casinos_countries.php:67 taxonomy-casinos_currencies.php:68
+#: taxonomy-casinos_deposits.php:68 taxonomy-casinos_languages.php:68
+#: taxonomy-casinos_licenses.php:68 taxonomy-casinos_types.php:68
+#: taxonomy-casinos_withdrawals.php:32
+msgid "Withdrawal Method"
+msgstr ""
+
+#: archive-casinos.php:70 single-casinos.php:273
+#: taxonomy-casinos_categories.php:79 taxonomy-casinos_countries.php:78
+#: taxonomy-casinos_currencies.php:79 taxonomy-casinos_deposits.php:79
+#: taxonomy-casinos_languages.php:79 taxonomy-casinos_licenses.php:79
+#: taxonomy-casinos_withdrawals.php:79
+msgid "Casino Type"
+msgstr ""
+
+#: archive-casinos.php:84 taxonomy-casinos_categories.php:93
+#: taxonomy-casinos_countries.php:92 taxonomy-casinos_currencies.php:93
+#: taxonomy-casinos_deposits.php:93 taxonomy-casinos_languages.php:93
+#: taxonomy-casinos_licenses.php:93 taxonomy-casinos_types.php:93
+#: taxonomy-casinos_withdrawals.php:93
+msgid "Filter Casinos"
+msgstr ""
+
+#: archive-slots.php:23
+msgid "Please Rate Our Game Collection"
+msgstr ""
+
+#: archive-slots.php:44 functions.php:973 taxonomy-slots_features.php:138
+#: taxonomy-slots_tags.php:138 taxonomy-slots_themes.php:138
+#: taxonomy-slots_types.php:138
+msgid "Provider"
+msgstr ""
+
+#: archive-slots.php:46 taxonomy-slots_features.php:140
+#: taxonomy-slots_tags.php:140 taxonomy-slots_themes.php:140
+#: taxonomy-slots_types.php:140
+msgid "All Providers"
+msgstr ""
+
+#: archive-slots.php:55 taxonomy-slots_features.php:149
+#: taxonomy-slots_providers.php:150 taxonomy-slots_tags.php:149
+#: taxonomy-slots_types.php:149
+msgid "Theme"
+msgstr ""
+
+#: archive-slots.php:57 taxonomy-slots_features.php:151
+#: taxonomy-slots_providers.php:152 taxonomy-slots_tags.php:151
+#: taxonomy-slots_types.php:151
+msgid "All Themes"
+msgstr ""
+
+#: archive-slots.php:66 taxonomy-slots_providers.php:161
+#: taxonomy-slots_tags.php:160 taxonomy-slots_themes.php:160
+#: taxonomy-slots_types.php:160
+msgid "Features"
+msgstr ""
+
+#: archive-slots.php:68 taxonomy-slots_providers.php:163
+#: taxonomy-slots_tags.php:162 taxonomy-slots_themes.php:162
+#: taxonomy-slots_types.php:162
+msgid "All Features"
+msgstr ""
+
+#: archive-slots.php:80 taxonomy-slots_features.php:174
+#: taxonomy-slots_providers.php:175 taxonomy-slots_tags.php:174
+#: taxonomy-slots_themes.php:174 taxonomy-slots_types.php:174
+msgid "Filter Slots"
+msgstr ""
+
+#: archive-table_games.php:22 functions.php:943 functions.php:945
+#: single-slots.php:57 single-table_games.php:42
+msgid "Play Free"
+msgstr ""
+
+#: archive-table_games.php:23
+msgid "Please Rate Our Table Game Collection"
+msgstr ""
+
+#: archive-table_games.php:44 wpuf/dashboard.php:108
+msgid "Category"
+msgstr ""
+
+#: archive-table_games.php:46
+msgid "All Categories"
+msgstr ""
+
+#: archive-table_games.php:58
+msgid "Filter Games"
+msgstr ""
+
+#: comments.php:26
+msgid "Currently there are no reviews for"
+msgstr ""
+
+#: comments.php:35
+msgid "Name"
+msgstr ""
+
+#: comments.php:36
+msgid "Email"
+msgstr ""
+
+#: comments.php:37
+msgid ""
+"Save my name and email in this browser for the next time I post a review"
+msgstr ""
+
+#: comments.php:39
+msgid "Your Review"
+msgstr ""
+
+#: comments.php:40
+msgid "Add Review"
+msgstr ""
+
+#: comments.php:41
+msgid "Submit Review"
+msgstr ""
+
+#: footer.php:10 header.php:91 search.php:12 single-casinos.php:47
+#: single-casinos.php:98 single-casinos.php:441 single-casinos.php:486
+#: single-slots.php:41 single-slots.php:87 single-slots.php:186
+#: single-slots.php:233 single-slots.php:288 single-slots.php:340
+#: single-slots.php:356 single-slots.php:425 single-table_games.php:72
+#: single-table_games.php:166 single-table_games.php:204
+#: single-table_games.php:259 taxonomy-slots_features.php:34
+#: taxonomy-slots_providers.php:35 taxonomy-slots_tags.php:34
+#: taxonomy-slots_themes.php:34 taxonomy-slots_types.php:34
+#: template-bonuses-listing.php:15 template-casinos-listing.php:19
+#: template-casinos-listing.php:111 template-flexible-blocks.php:75
+#: template-flexible-blocks.php:78 template-flexible-blocks.php:356
+#: template-flexible-blocks.php:475 template-slots-listing.php:3
+#: template-table-games-listing.php:3
+msgid "Image Placeholder"
+msgstr ""
+
+#: footer.php:44
+msgid "All Rights Reserved"
+msgstr ""
+
+#: footer.php:46
+msgid "DMCA.com Protection Status"
+msgstr ""
+
+#: footer.php:73
+msgid "Age Restriction"
+msgstr ""
+
+#: functions.php:26
+msgid "Options"
+msgstr ""
+
+#: functions.php:81
+msgid "Main Menu"
+msgstr ""
+
+#: functions.php:82
+msgid "Footer Menu"
+msgstr ""
+
+#: functions.php:91
+msgid "Footer"
+msgstr ""
+
+#: functions.php:92
+msgid "Widgets in this block will be displayed in footer of the website."
+msgstr ""
+
+#: functions.php:172
+msgid "Your review awaiting moderation."
+msgstr ""
+
+#: functions.php:210
+msgid "Pros Cons List"
+msgstr ""
+
+#: functions.php:211
+msgid "Add Pros Cons List Block to Your Content."
+msgstr ""
+
+#: functions.php:220
+msgid "Iconic Steps List"
+msgstr ""
+
+#: functions.php:221
+msgid "Add Iconic Steps List Block to Your Content."
+msgstr ""
+
+#: functions.php:259
+msgid "Step"
+msgstr ""
+
+#: functions.php:271 functions.php:275
+msgid "Slots"
+msgstr ""
+
+#: functions.php:272
+msgid "Slot"
+msgstr ""
+
+#: functions.php:307 functions.php:311
+msgid "Slots Providers"
+msgstr ""
+
+#: functions.php:308
+msgid "Slots Provider"
+msgstr ""
+
+#: functions.php:337 functions.php:341
+msgid "Slots Types"
+msgstr ""
+
+#: functions.php:338
+msgid "Slots Type"
+msgstr ""
+
+#: functions.php:367 functions.php:371
+msgid "Slots Themes"
+msgstr ""
+
+#: functions.php:368
+msgid "Slots Theme"
+msgstr ""
+
+#: functions.php:397 functions.php:401
+msgid "Slots Features"
+msgstr ""
+
+#: functions.php:398
+msgid "Slots Feature"
+msgstr ""
+
+#: functions.php:427 functions.php:431
+msgid "Slots Tags"
+msgstr ""
+
+#: functions.php:428
+msgid "Slots Tag"
+msgstr ""
+
+#: functions.php:457 functions.php:461 taxonomy-casinos_currencies.php:32
+#: taxonomy-casinos_types.php:32
+msgid "Casinos"
+msgstr ""
+
+#: functions.php:493 functions.php:497
+msgid "Casinos Categories"
+msgstr ""
+
+#: functions.php:494
+msgid "Casinos Category"
+msgstr ""
+
+#: functions.php:523 functions.php:527
+msgid "Casinos Countries"
+msgstr ""
+
+#: functions.php:524
+msgid "Casinos Country"
+msgstr ""
+
+#: functions.php:553 functions.php:557
+msgid "Casinos Deposits"
+msgstr ""
+
+#: functions.php:554
+msgid "Casinos Deposit"
+msgstr ""
+
+#: functions.php:583 functions.php:587
+msgid "Casinos Withdrawals"
+msgstr ""
+
+#: functions.php:584
+msgid "Casinos Withdrawal"
+msgstr ""
+
+#: functions.php:613 functions.php:617
+msgid "Casinos Types"
+msgstr ""
+
+#: functions.php:614
+msgid "Casinos Type"
+msgstr ""
+
+#: functions.php:643 functions.php:647
+msgid "Casinos Currencies"
+msgstr ""
+
+#: functions.php:644
+msgid "Casinos Currency"
+msgstr ""
+
+#: functions.php:673 functions.php:677
+msgid "Casinos Languages"
+msgstr ""
+
+#: functions.php:674
+msgid "Casinos Language"
+msgstr ""
+
+#: functions.php:703 functions.php:707
+msgid "Casinos Licenses"
+msgstr ""
+
+#: functions.php:704
+msgid "Casinos License"
+msgstr ""
+
+#: functions.php:733 functions.php:737 single-casinos.php:310
+msgid "Bonuses"
+msgstr ""
+
+#: functions.php:734 template-bonuses-listing.php:58
+msgid "Bonus"
+msgstr ""
+
+#: functions.php:769 functions.php:773
+msgid "Bonuses Types"
+msgstr ""
+
+#: functions.php:770
+msgid "Bonuses Type"
+msgstr ""
+
+#: functions.php:799 functions.php:803
+msgid "Bonuses Countries"
+msgstr ""
+
+#: functions.php:800
+msgid "Bonuses Country"
+msgstr ""
+
+#: functions.php:829 functions.php:833
+msgid "Table Games"
+msgstr ""
+
+#: functions.php:830
+msgid "Table Game"
+msgstr ""
+
+#: functions.php:865 functions.php:869
+msgid "Table Games Categories"
+msgstr ""
+
+#: functions.php:866
+msgid "Table Games Category"
+msgstr ""
+
+#: functions.php:943 functions.php:945
+msgid "Free"
+msgstr ""
+
+#: functions.php:947
+msgid "Review"
+msgstr ""
+
+#: functions.php:947 functions.php:951 single-slots.php:129
+#: single-slots.php:275 single-slots.php:322 single-slots.php:430
+#: single-table_games.php:114 single-table_games.php:246
+#: single-table_games.php:293 taxonomy-slots_features.php:76
+#: taxonomy-slots_providers.php:77 taxonomy-slots_tags.php:76
+#: taxonomy-slots_themes.php:76 taxonomy-slots_types.php:76
+#: template-bonuses-listing.php:82 template-casinos-listing.php:103
+#: template-casinos-listing.php:181 template-flexible-blocks.php:544
+msgid "Read Review"
+msgstr ""
+
+#: functions.php:951 single-casinos.php:354 template-bonuses-listing.php:81
+msgid "Claim Bonus"
+msgstr ""
+
+#: functions.php:953 functions.php:968
+msgid "More Information"
+msgstr ""
+
+#: functions.php:973
+msgid "Explore Games"
+msgstr ""
+
+#: header.php:72
+msgid "Your<br>Favorites"
+msgstr ""
+
+#: header.php:73
+msgid "Check<br>Notifications"
+msgstr ""
+
+#: header.php:75
+msgid "Your<br>Profile"
+msgstr ""
+
+#: header.php:77
+msgid "Sign In<br>Register"
+msgstr ""
+
+#: header.php:85
+msgid "Latest News"
+msgstr ""
+
+#: header.php:101
+msgid "View All News"
+msgstr ""
+
+#: header.php:133
+msgid "Menu"
+msgstr ""
+
+#: page-favorites.php:17
+msgid "Favorite Casinos"
+msgstr ""
+
+#: page-favorites.php:21
+msgid "Favorite Slots"
+msgstr ""
+
+#: page-favorites.php:25
+msgid "Favorite Table Games"
+msgstr ""
+
+#: page-favorites.php:30
+msgid ""
+"Only registered users can add items to favorites, if you already have an "
+"account or want to register, please visit this link"
+msgstr ""
+
+#: page-favorites.php:30
+msgid "Register/Login"
+msgstr ""
+
+#: search.php:6
+msgid "Search"
+msgstr ""
+
+#: single-bonuses.php:12
+msgid "Claim Link"
+msgstr ""
+
+#: single-bonuses.php:13 single-casinos.php:317 single-casinos.php:467
+#: template-bonuses-listing.php:58
+msgid "Promo Code"
+msgstr ""
+
+#: single-bonuses.php:14 single-bonuses.php:18 single-casinos.php:316
+msgid "Description"
+msgstr ""
+
+#: single-bonuses.php:18
+msgid "Country"
+msgstr ""
+
+#: single-casinos.php:37
+msgid "Inactive"
+msgstr ""
+
+#: single-casinos.php:37
+msgid ""
+"is no longer available as it has stopped its operations. Please try these "
+"instead:"
+msgstr ""
+
+#: single-casinos.php:86 single-casinos.php:489 single-slots.php:216
+#: single-slots.php:429 single-table_games.php:187
+msgid "Play"
+msgstr ""
+
+#: single-casinos.php:102
+msgid "Players from"
+msgstr ""
+
+#: single-casinos.php:102
+msgid "accepted"
+msgstr ""
+
+#: single-casinos.php:102
+msgid "not accepted"
+msgstr ""
+
+#: single-casinos.php:103
+msgid "Visit Casino"
+msgstr ""
+
+#: single-casinos.php:138
+msgid "Rating"
+msgstr ""
+
+#: single-casinos.php:138
+msgid "Based On"
+msgstr ""
+
+#: single-casinos.php:138 single-casinos.php:181
+msgid "Reviews"
+msgstr ""
+
+#: single-casinos.php:141
+msgid "Casino Welcome Bonus"
+msgstr ""
+
+#: single-casinos.php:176
+msgid "Overview"
+msgstr ""
+
+#: single-casinos.php:177
+msgid "Details"
+msgstr ""
+
+#: single-casinos.php:178
+msgid "Casino Bonus"
+msgstr ""
+
+#: single-casinos.php:179
+msgid "Our Review"
+msgstr ""
+
+#: single-casinos.php:180
+msgid "FAQ Player"
+msgstr ""
+
+#: single-casinos.php:221
+msgid "Casino Details"
+msgstr ""
+
+#: single-casinos.php:222
+msgid "More Casino Details"
+msgstr ""
+
+#: single-casinos.php:228
+msgid "Website"
+msgstr ""
+
+#: single-casinos.php:229
+msgid "Visit Website"
+msgstr ""
+
+#: single-casinos.php:232 single-slots.php:281 single-slots.php:362
+#: single-table_games.php:252
+msgid "Software"
+msgstr ""
+
+#: single-casinos.php:251 template-casinos-listing.php:56
+msgid "Deposit Methods"
+msgstr ""
+
+#: single-casinos.php:255
+msgid "Withdrawal Methods"
+msgstr ""
+
+#: single-casinos.php:259
+msgid "Withdrawal Limit"
+msgstr ""
+
+#: single-casinos.php:269
+msgid "Available in Countries"
+msgstr ""
+
+#: single-casinos.php:277
+msgid "Currencies"
+msgstr ""
+
+#: single-casinos.php:281
+msgid "Languages"
+msgstr ""
+
+#: single-casinos.php:285 taxonomy-casinos_licenses.php:32
+msgid "License"
+msgstr ""
+
+#: single-casinos.php:289
+msgid "Established"
+msgstr ""
+
+#: single-casinos.php:315 single-slots.php:366 taxonomy-slots_features.php:160
+#: taxonomy-slots_providers.php:139 taxonomy-slots_themes.php:149
+#: template-bonuses-listing.php:16
+msgid "Type"
+msgstr ""
+
+#: single-casinos.php:318
+msgid "Claim"
+msgstr ""
+
+#: single-casinos.php:353
+msgid "No Code Required"
+msgstr ""
+
+#: single-casinos.php:359
+msgid ""
+"Terms & Conditions Apply. New Players Aged 18+. Please Gamble Responsibly."
+msgstr ""
+
+#: single-casinos.php:365
+msgid "Pros & Cons"
+msgstr ""
+
+#: single-casinos.php:369
+msgid "Pros"
+msgstr ""
+
+#: single-casinos.php:379
+msgid "Cons"
+msgstr ""
+
+#: single-casinos.php:399
+msgid "FAQ"
+msgstr ""
+
+#: single-casinos.php:412
+msgid "Customer Reviews"
+msgstr ""
+
+#: single-casinos.php:421
+msgid "Top Casino Bonuses"
+msgstr ""
+
+#: single-casinos.php:470
+msgid "Get"
+msgstr ""
+
+#: single-casinos.php:479
+msgid "Most Popular Casino"
+msgstr ""
+
+#: single-slots.php:41
+msgid "slots"
+msgstr ""
+
+#: single-slots.php:46 single-table_games.php:32
+msgid "Play for Real Money"
+msgstr ""
+
+#: single-slots.php:47 single-table_games.php:33
+msgid "Refresh Game Credits"
+msgstr ""
+
+#: single-slots.php:49 single-table_games.php:35
+msgid "Report a Problem"
+msgstr ""
+
+#: single-slots.php:50 single-table_games.php:36
+msgid "Open in Fullscreen"
+msgstr ""
+
+#: single-slots.php:77 single-table_games.php:62
+msgid "Ready to Play"
+msgstr ""
+
+#: single-slots.php:77 single-table_games.php:62
+msgid "for Real"
+msgstr ""
+
+#: single-slots.php:88 single-slots.php:242 single-slots.php:289
+#: single-table_games.php:73 single-table_games.php:213
+#: single-table_games.php:260 taxonomy-slots_features.php:35
+#: taxonomy-slots_providers.php:36 taxonomy-slots_tags.php:35
+#: taxonomy-slots_themes.php:35 taxonomy-slots_types.php:35
+#: template-casinos-listing.php:61 template-casinos-listing.php:148
+#: template-flexible-blocks.php:511
+msgid "Welcome Bonus"
+msgstr ""
+
+#: single-slots.php:128 single-slots.php:274 single-slots.php:321
+#: single-table_games.php:113 single-table_games.php:245
+#: single-table_games.php:292 taxonomy-slots_features.php:75
+#: taxonomy-slots_providers.php:76 taxonomy-slots_tags.php:75
+#: taxonomy-slots_themes.php:75 taxonomy-slots_types.php:75
+#: template-casinos-listing.php:102 template-casinos-listing.php:180
+#: template-flexible-blocks.php:543
+msgid "Play Now"
+msgstr ""
+
+#: single-slots.php:136 single-table_games.php:121
+msgid "All Real Money Casinos"
+msgstr ""
+
+#: single-slots.php:175 single-table_games.php:160
+msgid "What Else to Play?"
+msgstr ""
+
+#: single-slots.php:192 single-slots.php:378
+msgid "RTP"
+msgstr ""
+
+#: single-slots.php:196 single-slots.php:374
+msgid "Paylines"
+msgstr ""
+
+#: single-slots.php:200 single-slots.php:370
+msgid "Reels"
+msgstr ""
+
+#: single-slots.php:216 single-table_games.php:187
+msgid "at Online Casinos"
+msgstr ""
+
+#: single-slots.php:279 single-table_games.php:250
+msgid "Slot Machines"
+msgstr ""
+
+#: single-slots.php:280 single-table_games.php:251
+msgid "Withdrawal Time"
+msgstr ""
+
+#: single-slots.php:281 single-table_games.php:252
+#: template-casinos-listing.php:56
+msgid "and more..."
+msgstr ""
+
+#: single-slots.php:334
+msgid "Popular Free Slots"
+msgstr ""
+
+#: single-slots.php:348
+msgid "All Free Slots"
+msgstr ""
+
+#: single-slots.php:360
+msgid "Slot Info"
+msgstr ""
+
+#: single-slots.php:382
+msgid "Volatility"
+msgstr ""
+
+#: single-slots.php:386
+msgid "Min Bet"
+msgstr ""
+
+#: single-slots.php:390
+msgid "Max Bet"
+msgstr ""
+
+#: single-slots.php:394
+msgid "Top Win"
+msgstr ""
+
+#: single-slots.php:398
+msgid "Themes"
+msgstr ""
+
+#: single-slots.php:404
+msgid "Bonus Features"
+msgstr ""
+
+#: single-slots.php:408
+msgid "Yes"
+msgstr ""
+
+#: single-slots.php:417
+msgid "Best Casinos that Offer"
+msgstr ""
+
+#: single-slots.php:417
+msgid "Best Casinos that We Offer"
+msgstr ""
+
+#: single-slots.php:460
+msgid "All Slot Machine Games by"
+msgstr ""
+
+#: taxonomy-bonuses_countries.php:29
+msgid "Casino Bonuses Available in"
+msgstr ""
+
+#: taxonomy-bonuses_countries.php:35
+msgid "Bonuses Found for Players from"
+msgstr ""
+
+#: taxonomy-bonuses_countries.php:55 taxonomy-bonuses_types.php:55
+msgid "Sort Bonuses"
+msgstr ""
+
+#: taxonomy-bonuses_types.php:29
+msgid "Selection"
+msgstr ""
+
+#: taxonomy-casinos_categories.php:32
+msgid "Reviews & Ratings"
+msgstr ""
+
+#: taxonomy-casinos_countries.php:37
+msgid "Casinos Found for Players from"
+msgstr ""
+
+#: taxonomy-casinos_currencies.php:195
+msgid "Casinos That Accept Other Currencies"
+msgstr ""
+
+#: taxonomy-casinos_deposits.php:32 taxonomy-casinos_withdrawals.php:32
+msgid "Casinos with"
+msgstr ""
+
+#: taxonomy-casinos_deposits.php:57 taxonomy-casinos_types.php:79
+#: taxonomy-casinos_withdrawals.php:68
+msgid "Currency"
+msgstr ""
+
+#: taxonomy-casinos_deposits.php:59 taxonomy-casinos_types.php:81
+#: taxonomy-casinos_withdrawals.php:70
+msgid "All Currencies"
+msgstr ""
+
+#: taxonomy-casinos_deposits.php:195
+msgid "Other Casino Deposit Methods"
+msgstr ""
+
+#: taxonomy-casinos_languages.php:32
+msgid "Casinos that Support"
+msgstr ""
+
+#: taxonomy-casinos_languages.php:32
+msgid "Language"
+msgstr ""
+
+#: taxonomy-casinos_languages.php:195
+msgid "Other Casino Languages"
+msgstr ""
+
+#: taxonomy-casinos_licenses.php:32
+msgid "Casinos that Work Under"
+msgstr ""
+
+#: taxonomy-casinos_withdrawals.php:195
+msgid "Other Casino Withdrawal Methods"
+msgstr ""
+
+#: taxonomy-slots_features.php:24 taxonomy-slots_providers.php:25
+#: taxonomy-slots_tags.php:24 taxonomy-slots_themes.php:24
+#: taxonomy-slots_types.php:24
+msgid "Best Online Casinos with Real Money Slots"
+msgstr ""
+
+#: taxonomy-slots_features.php:83 taxonomy-slots_providers.php:84
+#: taxonomy-slots_tags.php:83 taxonomy-slots_themes.php:83
+#: taxonomy-slots_types.php:83
+msgid "More Bonus Offers"
+msgstr ""
+
+#: taxonomy-slots_features.php:116 taxonomy-slots_providers.php:117
+#: taxonomy-slots_tags.php:116 taxonomy-slots_themes.php:116
+#: taxonomy-slots_types.php:116
+msgid "Slot Machine Games"
+msgstr ""
+
+#: taxonomy-slots_features.php:117 taxonomy-slots_tags.php:117
+#: taxonomy-slots_themes.php:117 taxonomy-slots_types.php:117
+msgid "Please Rate this Collection"
+msgstr ""
+
+#: taxonomy-slots_features.php:269
+msgid "Other Slots Features"
+msgstr ""
+
+#: taxonomy-slots_providers.php:118
+msgid "Please Rate this Provider"
+msgstr ""
+
+#: taxonomy-slots_themes.php:269
+msgid "Other Slots Themes"
+msgstr ""
+
+#: taxonomy-table_games_categories.php:30
+msgid "Please Rate Our Table Games Collection"
+msgstr ""
+
+#: template-bonuses-listing.php:53
+msgid "Gold Award"
+msgstr ""
+
+#: template-bonuses-listing.php:54
+msgid "SlotoGate<br>Gold Award"
+msgstr ""
+
+#: template-casinos-listing.php:55
+msgid "Types"
+msgstr ""
+
+#: template-flexible-blocks.php:27
+msgid "Most Games"
+msgstr ""
+
+#: template-flexible-blocks.php:38
+msgid "Sort Items"
+msgstr ""
+
+#: template-flexible-blocks.php:76 template-flexible-blocks.php:356
+msgid "Visit Provider Page"
+msgstr ""
+
+#: template-flexible-blocks.php:302
+msgid "Find the Best Online Casinos"
+msgstr ""
+
+#: template-flexible-blocks.php:314
+msgid "All Casinos Collection"
+msgstr ""
+
+#: template-flexible-blocks.php:337 template-flexible-blocks.php:388
+msgid "All Slots Collection"
+msgstr ""
+
+#: template-flexible-blocks.php:357
+msgid "games"
+msgstr ""
+
+#: template-flexible-blocks.php:365
+msgid "All Providers Collection"
+msgstr ""
+
+#: template-flexible-blocks.php:411
+msgid "All Table Games"
+msgstr ""
+
+#: template-flexible-blocks.php:571
+msgid "Read More"
+msgstr ""
+
+#: template-slots-listing.php:7 template-table-games-listing.php:6
+msgid "Play for Free"
+msgstr ""
+
+#: wpuf/account.php:4
+msgid "Account"
+msgstr ""
+
+#: wpuf/account.php:5
+msgid "Favorites"
+msgstr ""
+
+#: wpuf/account.php:6
+msgid "Edit Profile"
+msgstr ""
+
+#: wpuf/dashboard.php:4
+#, php-format
+msgid "%s's Dashboard"
+msgstr ""
+
+#: wpuf/dashboard.php:20
+#, php-format
+msgid "You have created <span>%d</span> (%s)"
+msgstr ""
+
+#: wpuf/dashboard.php:102 wpuf/dashboard/posts.php:107
+msgid "Featured Image"
+msgstr ""
+
+#: wpuf/dashboard.php:128
+msgid "Excerpt"
+msgstr ""
+
+#: wpuf/dashboard.php:159 wpuf/dashboard/posts.php:139
+msgid "No Image"
+msgstr ""
+
+#: wpuf/dashboard.php:276
+msgid "Are you sure you want to delete this post ?"
+msgstr ""
+
+#: wpuf/dashboard.php:296 wpuf/dashboard/posts.php:235
+msgid "&laquo;"
+msgstr ""
+
+#: wpuf/dashboard.php:297 wpuf/dashboard/posts.php:236
+msgid "&raquo;"
+msgstr ""
+
+#: wpuf/dashboard.php:319 wpuf/dashboard/posts.php:259
+#, php-format
+msgid "No %s found"
+msgstr ""
+
+#: wpuf/dashboard/billing-address.php:32
+msgid "Billing address is updated."
+msgstr ""
+
+#: wpuf/dashboard/billing-address.php:66
+msgid "Choose a country"
+msgstr ""
+
+#: wpuf/dashboard/billing-address.php:105
+msgid "Choose a state"
+msgstr ""
+
+#: wpuf/dashboard/dashboard.php:5
+#, php-format
+msgid "Hello %1$s, (not %1$s? <a href=\"%2$s\">Sign out</a>)"
+msgstr ""
+
+#: wpuf/dashboard/dashboard.php:39
+msgid ""
+"From personal account you can manage your <a href=\"/account/?section=edit-"
+"profile\">Address & Profile</a> information or view <a href=\"/favorites/"
+"\">Favorited Items</a>."
+msgstr ""
+
+#: wpuf/dashboard/posts.php:34
+msgid "You are not the post author. Cheating huh!"
+msgstr ""
+
+#: wpuf/dashboard/posts.php:214
+msgid "Are you sure to delete?"
+msgstr ""
+
+#: wpuf/dashboard/subscription.php:33
+msgid "Unlimited"
+msgstr ""
+
+#: wpuf/dokan/new-post.php:7 wpuf/wc-marketplace/new-post.php:7
+#: wpuf/wc-vendors/new-post.php:7
+msgid "You are not allowed to submit post. Please contact admin"
+msgstr ""
+
+#: wpuf/logged-in.php:8
+#, php-format
+msgid "Hello, %s"
+msgstr ""
+
+#: wpuf/logged-in.php:10
+#, php-format
+msgid "You are currently logged in! %s?"
+msgstr ""
+
+#: wpuf/registration-form.php:19
+msgid "Registration has been successful!"
+msgstr ""
+
+#: wpuf/submit-post.php:3
+msgid "No post form assigned yet by the administrator."
+msgstr ""
+
+#: wpuf/unauthorized.php:4
+#, php-format
+msgid "This page is restricted. Please %s to view this page."
+msgstr ""

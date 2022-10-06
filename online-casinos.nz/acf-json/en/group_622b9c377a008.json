@@ -1,0 +1,83 @@
+{
+    "key": "group_622b9c377a008",
+    "title": "Slots Ordering",
+    "fields": [
+        {
+            "key": "field_622b9de2a371d",
+            "label": "Order Items By",
+            "name": "tax_slots_ordering",
+            "type": "select",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "wpml_cf_preferences": 3,
+            "choices": {
+                "date": "New to Old",
+                "title-asc": "A to Z",
+                "title-desc": "Z to A",
+                "popular": "Most Popular",
+                "rating": "Best Rating"
+            },
+            "default_value": "date",
+            "allow_null": 1,
+            "multiple": 0,
+            "ui": 1,
+            "ajax": 0,
+            "return_format": "value",
+            "placeholder": ""
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "taxonomy",
+                "operator": "==",
+                "value": "slots_providers"
+            }
+        ],
+        [
+            {
+                "param": "taxonomy",
+                "operator": "==",
+                "value": "slots_types"
+            }
+        ],
+        [
+            {
+                "param": "taxonomy",
+                "operator": "==",
+                "value": "slots_themes"
+            }
+        ],
+        [
+            {
+                "param": "taxonomy",
+                "operator": "==",
+                "value": "slots_features"
+            }
+        ],
+        [
+            {
+                "param": "taxonomy",
+                "operator": "==",
+                "value": "slots_tags"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "field",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "",
+    "show_in_rest": 0,
+    "wpml_field_group_language": "en",
+    "modified": 1655203721
+}
